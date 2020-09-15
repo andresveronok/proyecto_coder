@@ -1,0 +1,227 @@
+body {
+  font-family: 'Barlow Condensed';
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  background-color: white;
+}
+
+a:hover{
+  color: chocolate;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+.nav-link {
+  color:white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;  
+}
+
+h3,h1{
+  color: white;
+}
+
+h2,p{
+  color: chocolate;
+  letter-spacing: 0.1rem;
+}
+
+
+#slider {
+  padding: 0;
+}
+
+.fondo-index
+{
+    background: url(../img/fondo-index.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondo-index:before {
+	content:'';
+  top: 0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/*
+ * Cover
+ */
+ .cover {
+  padding: 10rem 20rem; 
+}
+.cover .btn-lg {
+  padding: 5rem 1.25rem;
+}
+
+.cover p{
+  color: chocolate;
+  font-size: 25px;
+}
+
+.cover h1{
+  font-family: 'Barlow Condensed';
+  font-weight: 800;
+  color: aliceblue;
+  font-size: 75px;
+}
+
+.cover .btn{
+  text-decoration: none;
+}
+
+.index-boton
+{
+    padding: 50px;
+}
+
+.index-boton a
+{
+    padding: 30px;
+    border: 2px solid chocolate;
+    text-transform:  uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;    
+    transition: .3s;
+    overflow: hidden;
+    letter-spacing: 2px;
+
+}
+
+.index-boton a:hover
+{
+    box-shadow: 0 5px 50px 0 chocolate inset, 0 5px 50px 0 chocolate,
+                0 5px 50px 0 chocolate inset, 0 5px 50px 0 chocolate;
+}
+
+/* Nosotros - Carrousel */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 40rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+}
+
+/* Nosotros - Carrousel */
+
+/* Nosotros - Tarjetas */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+}
+
+
+/* RESPONSIVE CSS  */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Nosotros - Tarjetas */
+
+/* Servicios - Tarjetas Precio */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+  letter-spacing: 0;
+}
+
+/* Servicios - Tarjetas Precio */
+
+/* Reserva - Formulario */
+.lh-condensed { line-height: 1.25; }
+
+.reserva {
+  padding: 3rem 1rem;
+  letter-spacing: 0;
+}
+
+/* Reserva - Formulario */
+
+/* Contacto */
+
+.contacto{
+  padding-top: 3.5rem;
+}
+
+.contacto p{
+  color: black;
+}
